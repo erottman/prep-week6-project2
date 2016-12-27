@@ -11,31 +11,56 @@
 // Add your JS here.
 
 
-$(document).ready(function() {  
-    
-    
-//1. 
-   
-   
-//2.  
-    
-    
-//3. 
-   
-	    
-//4.
- 
-   
-//5. 
 
-	
+
+
+//1.
+
+/*$(document).ready(function() {
+
+$(".alertme").click(function() {
+ alert("jquery is fun");
+});
+
+
+}); */
+
+
+//2.
+
+/*$(document).ready(function () {
+
+  $(".clickme").click(function () {
+    $(".clickme").html("I was clicked");
+  })
+}) */
+
+
+//3.
+
+$(document).ready(function () {
+
+  $(".addStyle").click(function () {
+    $(".addStyle").addClass("buttonStyle");
+  });
+});
+
+
+
+
+//4.
+
+
+//5.
+
+
 //6.
-	
-	
+
+
 //7.
 
-	
-	
+
+
 //8.
 
 
@@ -44,9 +69,4 @@ $(document).ready(function() {
 
 
 
-});  // Close: $(document).ready(function() { 
-	
-	
-
-	
-	
+ // Close: $(document).ready(function() {
